@@ -1,0 +1,47 @@
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+.header-input{
+    background: url('../../assets/img/51426123_303.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 85vh;
+}
+.header-pic{
+    width: 200px; 
+    height: 58px;
+    margin-top: 15px;
+}
+.header-name{
+    color: #fff;
+    line-height: 60px;
+    font-size: 50px;
+}
+.header-text{
+    color: #fff;
+    font-size: 18px;
+}
+.header-button{
+    width: 220px;
+    height: 50px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-link{
+    color: aliceblue;
+}
+.header-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-link{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-size: 18px;
+}
