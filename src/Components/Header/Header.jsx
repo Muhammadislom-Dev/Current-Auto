@@ -6,7 +6,7 @@ const Header = () =>{
 
     return(
        <>
-<div className="header-input">
+<div className='header-input'>
     <nav className="navbar navbar-expand-lg ">
         <div className="container">
              <img src={Current} alt="" className="header-pic" />
@@ -37,7 +37,7 @@ const Header = () =>{
          </div>
      </div>
     </nav>
-    <section className="my-5 pb-5 header module-cover parallax  fullscreen">
+     <section className="my-5 pb-5 header module-cover parallax  fullscreen">
         <div className="container">
             <div className="row py-5">
                 <div className="col-md-12">
@@ -61,8 +61,7 @@ const Header = () =>{
             </div>
         </div>
     </section>
-</div>
-   
+    </div>
        </> 
     )
 }

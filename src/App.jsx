@@ -3,6 +3,7 @@ import Header from './Components/Header/Header';
 import Section from './Components/Section/Section';
 import Page from './Components/Page/Page';
 import Currentpage from './Components/Current-page/Current-page';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Section />
       <Page />
       <Currentpage />
+      <Footer />
     </div>
   );
 }
