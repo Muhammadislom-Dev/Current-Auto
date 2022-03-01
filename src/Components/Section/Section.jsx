@@ -6,7 +6,7 @@ const Section = () =>{
         <>
         <div className="section p-5">
             <div className="container">
-            <div className="col-md-12">
+            <div className="section_box col-md-12">
                     <h1 className="section-name m-b-20"><strong>Why switch to electric?</strong></h1>
                     <p className="section-texts m-b-40">When you switch to an electric vehicle your total cost of ownership <br /> goes down considerably..</p>
                 </div>

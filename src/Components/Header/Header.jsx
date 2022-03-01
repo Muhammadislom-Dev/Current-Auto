@@ -1,12 +1,12 @@
 import '../Header/Header.css'
 import Current from '../../assets/img/current-logo-removebg-preview.png';
+import { Link } from 'react-router-dom';
 
 const Header = () =>{
  
 
     return(
-       <>
-<div className='header-input'>
+       <>   <div className='header-input'>
     <nav className="navbar navbar-expand-lg ">
         <div className="container">
              <img src={Current} alt="" className="header-pic" />
@@ -16,7 +16,7 @@ const Header = () =>{
          <div className="collapse navbar-collapse align-items-center" id="navbarNav">
             <ul className="navbar-nav mx-5">
             <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Inventory</a>
+                <Link to="/inventory" className="nav-link"  href="#">Inventory</Link>
             </li>
             <li className="nav-item">
                 <a className="nav-link" href="#">Why Electric</a>
@@ -39,7 +39,7 @@ const Header = () =>{
     </nav>
      <section className="my-5 pb-5 header module-cover parallax  fullscreen">
         <div className="container">
-            <div className="row py-5">
+            <div className="header_page row py-5">
                 <div className="col-md-12">
                     <h1 className="header-name m-b-20"><strong>Pre-owned Electric Vehicles. <br /> Buy Online. Get it Delivered.</strong></h1>
                     <p className="header-text m-b-40">We offer financing, accept all trades, and deliver anywhere in the Continental US.</p>

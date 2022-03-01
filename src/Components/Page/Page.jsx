@@ -7,7 +7,7 @@ const Page = () =>{
         <>
         <div className="page">
             <div className="container">
-            <div class="row align-items-center g-0">
+            <div class=" row align-items-center g-0">
                 <div class="col-xl-5 col-lg-6 col-md-12">
                     <div class="py-5 py-lg-0">
                         <h3 class="page-name display-5 fw-bold">Get Charged.

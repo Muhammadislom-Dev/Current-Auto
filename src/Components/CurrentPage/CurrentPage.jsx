@@ -1,4 +1,4 @@
-import '../Current-page/Current-page.css';
+import './Current-page.css';
 import Logo from '../../assets/img/logos.png';
 import Cars from '../../assets/img/icon-car.png';
 import Compyuter from '../../assets/img/icon-compyuter.png';

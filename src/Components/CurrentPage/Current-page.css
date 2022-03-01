@@ -20,6 +20,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
+    text-align: center;
 }
 .box-pic{
     width: 200px;
@@ -33,9 +34,12 @@
     font-size: 27px;
     margin-top: 10px;
 }
-.bpx-text{
+.box-text{
     font-size: 18px;
     line-height: 22px;
+}
+.box-page{
+    text-align: center;
 }
 .box-names{
     font-size: 40px;
@@ -49,6 +53,7 @@
 
 .media{
     padding: 20px;
+    text-align: center;
 }
 .media-page{
     display: flex;
@@ -65,7 +70,7 @@
     font-size: 18px;
 }
 .media-names{
-    font-family: 'Hubballi', cursive;
+    font-family: "Lato";
 }
 .media-link{
     font-family: 'Gideon Roman';
@@ -89,6 +94,7 @@
     margin-top: 20px;
     background-color: #00BEE6;
     padding-bottom: 20px;
+    text-align: center;
 }
 .aside-name{
     text-align: center;

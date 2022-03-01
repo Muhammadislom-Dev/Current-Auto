@@ -1,6 +1,9 @@
 *{
     list-style: none;
 }
+.section_box{
+    text-align: center;
+}
 .container{
     width: 1240px;
     margin: 0 auto;
@@ -52,4 +55,7 @@
     border: 2px solid dodgerblue;
     border-radius: 5px;
     font-family: 'Gideon Roman';
+}
+.section-box{
+    text-align: center;
 }

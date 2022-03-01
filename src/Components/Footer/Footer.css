@@ -1,0 +1,46 @@
+.footer{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.footer-img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+.footer-pic{
+    width: 180px;
+    height: 130px;
+}
+.footer-page{
+    margin: 15px;
+    padding: 25px;
+}
+
+.footer-types{
+    opacity: 0.4;
+}
+.footer-text, .footer-type{
+    opacity: 0.6;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+}
+.footer-item{
+    padding: 10px;
+    /* margin: 10px; */
+}
+.footer-link{
+    text-decoration: none;
+    opacity: 0.4;
+    color: black;
+}
+.footer-links{
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-texts{
+    font-size: 16px;
+    opacity: 0.6;
+}
