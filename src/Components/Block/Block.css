@@ -1,0 +1,11 @@
+.navbar-link{
+    color: rgb(59, 56, 56);
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar-item{
+    margin: 10px;
+    padding-left: 25px;
+}
+
+

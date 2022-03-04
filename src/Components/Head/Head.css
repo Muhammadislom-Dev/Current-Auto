@@ -1,0 +1,43 @@
+.head-names{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.head-name{
+    color: dodgerblue;
+    padding-top: 30px;
+}
+.head-img{
+    width: 340px;
+    height: 240px;
+    margin-top: 10px;
+}
+.head-full{
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.head-text{
+    width: 850px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.head-texts{
+    width: 800px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.head-surname{
+    font-weight: 700;
+    margin-top: 60px;
+    padding-top: 40px;
+    font-size: 28px;
+}
+.head-texs{
+    width: 800px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}

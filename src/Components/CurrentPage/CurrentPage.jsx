@@ -11,11 +11,11 @@ import Mobil4 from '../../assets/img/mobil4.jpg'
 const Currentpage = () =>{
     return(
     <>
-        <section class="info-section plug p-5">
+        <section class="info-section plug ">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6 col-md-pull-6 col-sm-12 car-image no-padding fly-in-left">
-                        <img className='img' src={Logo} alt="Selling Your EV?" />
+                    <div class="col-md-6 col-md-pull-6 col-sm-12 car-image  ">
+                        <img className='img ' src={Logo} alt="Selling Your EV?" />
                     </div>
                     <div class="col-sm-12 col-md-push-6 col-md-6 text-center fly-in-right">
                         <div class="flex">

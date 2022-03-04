@@ -12,10 +12,10 @@ const Footer =()=>{
             <div className="container">
                 <img src={current} alt="" className="footer-pic" />
                 <div className="footer-page">
-                    <img src={Facebook} alt="" className="footer-img" />
-                    <img src={Instagram} alt="" className="footer-img" />
-                    <img src={Youtube} alt="" className="footer-img" />
-                    <img src={Linkedin} alt="" className="footer-img" />
+                    <a href="https://www.facebook.com/currentauto/" className="footer-links"> <img src={Facebook} alt="" className="footer-imgs" /></a>
+                    <a href="https://www.instagram.com/currentauto/" className="footer-links"><img src={Instagram} alt="" className="footer-imgs" /></a>
+                    <a href="https://www.youtube.com/channel/UCRGOhj2X0c-ou71UJGypewQ" className="footer-links"><img src={Youtube} alt="" className="footer-img" /></a>
+                    <a href="https://www.linkedin.com/company/currentautomotive/" className="footer-links"><img src={Linkedin} alt="" className="footer-img" /></a>
                 </div>
                 <div className='footer-box'>
                     <h6 className='footer-number'>Phone: 855-438-3838</h6>

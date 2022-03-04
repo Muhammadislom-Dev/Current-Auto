@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 import '../Sublime/Sublime.css'
 import Spark from '../../assets/img/spark.jpg'
+import { Link } from 'react-router-dom'
 
 const Sublime =()=> {
     return(
@@ -26,306 +26,37 @@ const Sublime =()=> {
                 </ul>
                 </div>
                 <div className="sublime-box">
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
-                <div className="sublime-card">
-                    <img src={Spark} className="card-img-top"  />
-                  <div className="card-body">
-                      <ul className="sublime-title">
-                          <li className="sublime-items">
-                          <p className="card-title">Pre-Owned 2016</p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
-                          </li>
-                          <li className="sublime-items">
-                          <p className="sublime-media">Stock:C1780PA</p> 
-                          </li>
-                      </ul>
-                  </div>
-                  <div className="sublime-skill">
-                      <p className="sublime-price">Price</p>
-                      <p className="sublime-number">$13 890</p>
-                  </div>
-                  <div className="sublime_page">
-                      <p className="sublime-mile">Mileage: 39,621</p>
-                      <p className="sublime-mile">Exterior: Titanium Metallic</p>
-                      <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
-                  </div>
-                </div>
+                    {
+                        Array.from(new Array(16)).map(e => (
+                            <div className="sublime-card">
+                                <Link to="/pictures">
+                                    <img src={Spark} className="card-img-top" />
+                                </Link>
+                                <div className="card-body">
+                                    <ul className="sublime-title">
+                                        <li className="sublime-items">
+                                        <p className="card-title">Pre-Owned 2016</p>
+                                        </li>
+                                        <li className="sublime-items">
+                                        <p className="card-text">Tesla Model S 70D AWD Highway Autopilot | 240 miles range </p>
+                                        </li>
+                                        <li className="sublime-items">
+                                        <p className="sublime-media">Stock:C1780PA</p> 
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="sublime-skill">
+                                    <p className="sublime-price">Price</p>
+                                    <p className="sublime-number">$13 890</p>
+                                </div>
+                                <div className="sublime_page">
+                                    <p className="sublime-mile">Mileage: 39,621</p>
+                                    <p className="sublime-mile">Exterior: Titanium Metallic</p>
+                                    <p className="sublime-mile">Interior: Dark Pewter W/Electric Blue Trim</p>
+                                </div>
+                            </div>
+                    ))
+                    }
                 </div>
             </div>
         </div>

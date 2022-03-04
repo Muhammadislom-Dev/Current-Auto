@@ -1,9 +1,13 @@
 .page-img{
     width: 500px;
 }
+.container-fluid{
+    width: 1500px;
+}
 
 .img{
-    width: 700px;
+    width: 750px;
+    margin-left: -25px;
 }
 .arrow-link{
     text-decoration: none;
