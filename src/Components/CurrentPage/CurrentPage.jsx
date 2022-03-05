@@ -28,7 +28,7 @@ const Currentpage = () =>{
                         <div class="flex">
                             <div class="section-info">
                                 <h2 class="big">Selling Your EV?</h2>
-                                <p class="content_ content-margin">Well give you a fair price. Use our online trade-in estimator <br /> to get an idea of what your EV is worth.</p>
+                                <p class="content_content-margin">Well give you a fair price. Use our online trade-in estimator <br /> to get an idea of what your EV is worth.</p>
                                 <a href="/sell-your-ev/" class="arrow-link">
                                     GET APPRAISED
                                 </a>

@@ -31,7 +31,7 @@
     height: 110px;
 }
 .box-pics{
-    height: 109px;
+    height: 115px;
 }
 .box-name{
     font-weight: 700;
@@ -40,14 +40,14 @@
 }
 .box-text{
     font-size: 18px;
-    line-height: 22px;
+    line-height: 24px;
 }
 .box-page{
     text-align: center;
 }
 .box-names{
     font-size: 40px;
-    line-height: 40px;
+    line-height: 45px;
     font-weight: 700;
 }
 .box-texts{
