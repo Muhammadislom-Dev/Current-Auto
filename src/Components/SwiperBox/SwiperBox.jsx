@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Description from '../../assets/img/description.png'
 
 // Import Swiper styles
 import "swiper/css";
@@ -13,6 +13,7 @@ import "./Swiper.css";
 
 // import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper";
+import Accordion from "../Accordion/Accordion";
 
 export default function SwiperBox() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -105,7 +106,50 @@ export default function SwiperBox() {
         </SwiperSlide>
       </Swiper>
       </div>
+
+      <Accordion className={"faq"} faqs={faqArray}/> 
       </div>
     </div>
   );
 }
+
+
+const faqArray = [
+
+{
+    question: <div className="accordion_page"><p className="swiperbox-text"><img className="description" src={Description} /> Free Vehicle History Report</p></div>,
+    answer: "Do you need quality service on 3D modeling? Our team of different home appliances and items can make you high quality and affordable. After all the payment of the order, you will download the order."
+  },
+  {
+    question: <div className="accordion_page"><p className="swiperbox-text"><img className="description" src={Description} /> Description</p></div>,
+    answer: <p className="swiperbox-texts">We make it easy to transition to your first or purchase your next electric vehicle with no-haggle pricing, competitive financing, nationwide shipping, and a transparent trade-in process. Find your EV, buy it online, and have it delivered</p>
+  },
+  {
+    question: <div className="accordion_page"><p className="swiperbox-text"><img className="description" src={Description} /> Details</p></div>,
+    answer: <p className="swiperbox-texts">Emergency communication system: OnStar Directions & Connections Heated Front Seat(s)
+    Variable Speed Intermittent Wipers
+    Steering Wheel Audio Controls
+    Engine Immobilizer</p>
+  },
+  {
+    question: <div className="accordion_page"><p className="swiperbox-text"><img className="description" src={Description} />  Interior</p></div>,
+    answer: <p className="swiperbox-texts">Remote vehicle starter system, passenger compartment preconditioning <br /> Shopping bag hooks, located on base of driver and front passenger head restraints</p>
+  },
+  {
+    question: <div className="accordion_page"><p className="swiperbox-text"><img className="description" src={Description} />  Exterior</p></div>,
+    answer: <p className="swiperbox-texts"> Liftgate trim, chrome
+    Rocker molding, body-color, lower
+    Moldings, chrome belt-line
+    Spoiler, rear with integrated LED center high-mounted stop/brake lamp (CHMSL)</p>
+  },
+
+  {
+    question: <div className="accordion_page"><p className="swiperbox-text"><img className="description" src={Description} />  Safety</p></div>,
+    answer: <p className="swiperbox-texts">Air bags, 10 total (Always use safety belts and child restraints. Children are safer when properly secured in a rear seat in the appropriate child restraint. See the Owner's Manual for more information.)</p>
+  },
+  {
+    question: <div className="accordion_page"><p className="swiperbox-text"><img className="description" src={Description} />  Premium Options</p></div>,
+    answer: <p className="swiperbox-texts">Air bags, thorax side-impact seat-mounted, side-front and rear outboard seating positions (Always use safety belts and child restraints. Children are safer when properly secured in a rear seat in the appropriate child restraint. See the Owner's Manual for more information.)</p>
+  },
+
+]

@@ -1,5 +1,5 @@
 .swiper-page{
-  width: 800px;
+  width: 900px;
   height: 550px;
   margin-top: 40px;
 }
@@ -76,4 +76,21 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+
+.description{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.accordion_page{
+  margin-top: 30px;
+  padding-top: 30px;
+  line-height: 0;
+}
+
+.swiper-name{
+  margin-top: 30px;
 }

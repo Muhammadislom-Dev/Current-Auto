@@ -1,0 +1,57 @@
+.select-name{
+    color: dodgerblue;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.select-page{
+    margin-top: 30px;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+
+.option-page{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    padding: 30px;
+}
+.option-input{
+    width: 80px;
+}
+
+.option-number{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    text-align: center;
+}
+.option-numbers{
+    color: white;
+    font-size: 55px;
+    line-height: 65px;
+    font-weight: 700;
+}
+.option-list{
+    margin-top: 30px;
+    margin-left: -30px;
+}
+.option-item{
+    color: white;
+    opacity: 0.5;
+}
+.option-select{
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.option-input:nth-of-type(1){
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+.option-names{
+    margin-left: -25px;
+    padding: 6px;
+}

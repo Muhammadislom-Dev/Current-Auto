@@ -48,5 +48,12 @@
     line-height:22px;
 }
 .header_page{
-    text-align: center;
+    text-align: center;   
+}
+
+.nav-items{
+    margin-left: 25px;
+}
+.bolt{
+    height: 20px;
 }

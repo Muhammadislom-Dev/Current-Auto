@@ -1,12 +1,14 @@
 import '../Navbar/Navbar.css'
 import { Link } from 'react-router-dom';
 import Current from '../../assets/img/current-logo-removebg-preview.png';
+import Call from '../../assets/img/3059457.png'
+import Card from '../../assets/img/card.png'
 
 const Navbar =()=>{
     return(
         <>
     <nav className="navbar navbar-expand-lg ">
-        <div className="container">
+        <div className="container-fluid">
             <Link to="/" className="navbar-link" > <img src={Current} alt="" className="header-pic" /> </Link>
             <button className='navbar-toggler' type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -42,6 +44,12 @@ const Navbar =()=>{
                         <li><a class="dropdown-item" href="#">Value Your Gas Trade-in</a></li>
                     </ul>
                 </li>
+                <li className="navbar-item">
+                    <a href="#" className="navbar-links"><img src={Call} alt="" className="navbar-picture" />+998997783606</a>
+                </li>
+                <li className="navbar_item">
+                  <a href="#" className="navbar_link">AVAILABLE CARS</a>    
+                </li>
                 </ul>
             </div>
         </div>
@@ -51,13 +59,11 @@ const Navbar =()=>{
         <div className="navbar-page">
               <div class="form-floating mb-3">
                 <input type="search" class="form-control" id="floatingInput" placeholder='search' />
-                <label for="floatingInput">Search by year, make, model, feature...</label>
+                <label className='label px-2 ' for="floatingInput" > <img src={Card} alt="" className='card' />  Search by year, make, model, feature...</label>
               </div>
             </div>
         </div>
     </div>
-
-
         </>
     )
 } 

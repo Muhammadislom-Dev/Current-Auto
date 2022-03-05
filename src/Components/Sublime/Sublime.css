@@ -44,7 +44,12 @@
 }
 .card-img-top{
     padding: 10px;
+    /* transition: 800ms; */
 }
+/* .card-img-top:hover{
+    transform: scale(2);
+} */
+
 .card-text{
     width: 270px;
     margin-left: -40px;

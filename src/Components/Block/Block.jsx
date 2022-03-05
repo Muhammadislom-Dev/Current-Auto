@@ -1,12 +1,13 @@
 import '../Block/Block.css'
 import { Link } from 'react-router-dom';
 import Current from '../../assets/img/current-logo-removebg-preview.png';
+import Call from '../../assets/img/3059457.png'
 
-const Block =() =>{
+const Block = () =>{
     return(
         <>
-        <nav className="navbar navbar-expand-lg ">
-        <div className="container">
+            <nav className="navbar navbar-expand-lg ">
+        <div className="container-fluid">
             <Link to="/" className="navbar-link" > <img src={Current} alt="" className="header-pic" /> </Link>
             <button className='navbar-toggler' type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -42,11 +43,18 @@ const Block =() =>{
                         <li><a class="dropdown-item" href="#">Value Your Gas Trade-in</a></li>
                     </ul>
                 </li>
+                <li className="block-items">
+                    <a href="#" className="block-link"><img src={Call} alt="" className="navbar-picture" />+998997783606</a>
+                </li>
+                <li className="navbar_item">
+                  <a href="#" className="navbar_link">AVAILABLE CARS</a>    
+                </li>
                 </ul>
             </div>
         </div>
-        </nav>
+    </nav>
         </>
     )
 }
-export default Block;
+
+export default Block
