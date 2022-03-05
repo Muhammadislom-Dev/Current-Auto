@@ -1,13 +1,33 @@
+.header-video{
+    opacity: 1;
+    object-fit: cover;
+  
+  }
+  .header-section{
+    width: 100%;
+    
+    height: 100vh;
+    position: relative;
+    opacity: 1;
+    color: #f1f1f1;
+    
+  }
+  
+  #myVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+
+
 .container{
     width: 1240px;
     margin: 0 auto;
 }
-.header-input{
-    background: url('../../assets/img/51426123_303.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-}
+ 
 .header-pic{
     width: 200px; 
     height: 58px;
@@ -47,7 +67,7 @@
 }
 .header-link{
     text-decoration: none;
-    color: rgb(3, 3, 3);
+    color: white;
     font-size: 18px;
     line-height:22px;
 }
@@ -56,8 +76,15 @@
 }
 
 .nav-items{
-    margin-left: 25px;
+    /* margin-left: 25px; */
 }
 .bolt{
     height: 20px;
+}
+
+.header-pages{
+    position: absolute;
+    top: 90%;
+    left: 18%;
+    width: 65%;
 }

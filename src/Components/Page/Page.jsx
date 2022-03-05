@@ -24,7 +24,7 @@ const Page = () =>{
                         <a href="#" className="page-links">MORE   INFO</a>
                     </div>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1200"  class=" col-xl-7 col-lg-6 col-md-12 text-lg-end text-center">
+                <div data-aos="fade-left" data-aos-duration="1300" class=" col-xl-7 col-lg-6 col-md-12 text-lg-end text-center">
                     <img src={Car} alt="" class="page-pic" />
                 </div>
             </div>

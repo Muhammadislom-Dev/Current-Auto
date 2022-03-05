@@ -1,7 +1,5 @@
-import '../Header/Header.css'
-import Aos from "aos"
-import "aos/dist/aos.css"
-import React , { useEffect } from 'react'
+import './Header.css'
+
 import Current from '../../assets/img/current-logo-removebg-preview.png';
 import { Link } from 'react-router-dom';
 import Bolt from '../../assets/img/blue-bolt.png';
@@ -9,13 +7,16 @@ import Cal from '../../assets/img/calls.png'
 
 
 const Header = () =>{
-    useEffect(() =>{
-        Aos.init({});
-    }, []);
+
 
     return(
        <>  
-       <div className='header-input'>
+        <video autoPlay muted className="header-video" id="myVideo">
+    <source
+      src="https://3a73912591e33a34c7ec-0b2c97842f44191203c9b45228f673bc.ssl.cf1.rackcdn.com/currentautomotive/home-video.mp4"
+      type="video/mp4" />
+  </video>
+           <div className="header-section">
             <nav className="navbar navbar-expand-lg ">
                 <div className="container">
                     <img src={Current} alt="" className="header-pic" />
@@ -54,24 +55,22 @@ const Header = () =>{
                             </ul>
                         </li>
                     <li className="nav-items">
-                            <a href="#" className="nav-link"><img src={Cal} alt="" className="header-picture" />+998997783606</a>
+                        <a href="#" className="nav-link"><img src={Cal} alt="" className="header-picture" />+998997783606</a>
                     </li>
                     </ul>
                 </div>
             </div>
             </nav>
-            <section className="my-5 pb-5 header module-cover parallax  fullscreen">
+            <div className="my-5 pb-5 header module-cover parallax  fullscreen">
                 <div className="container">
-                    <div data-aos="flip-left"
-                        data-aos-easing="ease-out-cubic"
-                        data-aos-duration="3000" className="header_page row py-5">
+                    <div  className="header_page row py-5">
                         <div className="col-md-12">
-                            <h1 className="header-name m-b-20"><strong>Pre-owned Electric Vehicles. <br /> Buy Online. Get it Delivered.</strong></h1>
-                            <p className="header-text m-b-40">We offer financing, accept all trades, and deliver anywhere in the Continental US.</p>
+                            <h1 className="header-name"><strong>Pre-owned Electric Vehicles. <br /> Buy Online. Get it Delivered.</strong></h1>
+                            <p className="header-text ">We offer financing, accept all trades, and deliver anywhere in the Continental US.</p>
                             <button  className="header-button">VIEW ALL VEHISLEC</button>
                         </div>
                     </div>
-                    <div className="header-page row  my-5 py-5">
+                    <div className="header-pages row  ">
                         <ul className="header-list">
                             <li className="header-item">
                                 <a href="#" className="header-link"> <img className='bolt' src={Bolt} alt="" />  How Does Shipping Work?</a>
@@ -85,8 +84,9 @@ const Header = () =>{
                         </ul>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
+ 
        </> 
     )
 }
