@@ -1,4 +1,7 @@
 import './Current-page.css';
+import Aos from "aos"
+import "aos/dist/aos.css"
+import React , { useEffect } from 'react'
 import Logo from '../../assets/img/logos.png';
 import Cars from '../../assets/img/icon-car.png';
 import Compyuter from '../../assets/img/icon-compyuter.png';
@@ -9,15 +12,19 @@ import Mobil1 from '../../assets/img/mobil1.jpg'
 import Mobil4 from '../../assets/img/mobil4.jpg'
 
 const Currentpage = () =>{
+    useEffect(() =>{
+        Aos.init({});
+    }, []);
+
     return(
     <>
         <section class="info-section plug ">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6 col-md-pull-6 col-sm-12 car-image  ">
-                        <img className='img ' src={Logo} alt="Selling Your EV?" />
+                    <div data-aos="fade-right" data-aos-duration="1000" class="col-md-6 col-md-pull-6 col-sm-12 car-image  ">
+                        <img className='img' src={Logo} alt="Selling Your EV?" />
                     </div>
-                    <div class="col-sm-12 col-md-push-6 col-md-6 text-center fly-in-right">
+                    <div data-aos="fade-left" data-aos-duration="1200" class="col-sm-12 col-md-push-6 col-md-6 text-center fly-in-right">
                         <div class="flex">
                             <div class="section-info">
                                 <h2 class="big">Selling Your EV?</h2>
@@ -39,7 +46,8 @@ const Currentpage = () =>{
                     <p className="box-texts">Simple! Just find your car and use our online <br /> system to complete the purchase.</p>
                     <p className="box-texts">No need to even leave the house!</p>
                 </div>
-                <div className="box_page">
+                <div  data-aos="fade-up"
+                        data-aos-duration="1800" className="box_page">
                     <ul className="box-list">
                         <li className="box-item">
                             <img src={Cars} alt="" className="box-pic" />
@@ -51,7 +59,7 @@ const Currentpage = () =>{
                             <p className="box-text">Browse hand-picked pre-owned electric vehicles.</p>
                         </li>
                     </ul>
-                    <ul className="box-list">
+                    <ul  className="box-list">
                         <li className="box-item">
                             <img src={Compyuter} alt="" className="box-pics" />
                         </li>
@@ -62,7 +70,7 @@ const Currentpage = () =>{
                             <p className="box-text">Chat, finance, and sign.</p>
                         </li>
                     </ul>
-                    <ul className="box-list">
+                    <ul  className="box-list">
                         <li className="box-item">
                             <img src={CarIcon} alt="" className="box-pic" />
                         </li>

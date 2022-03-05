@@ -1,12 +1,18 @@
 import '../Header/Header.css'
+import Aos from "aos"
+import "aos/dist/aos.css"
+import React , { useEffect } from 'react'
 import Current from '../../assets/img/current-logo-removebg-preview.png';
 import { Link } from 'react-router-dom';
-import Call from '../../assets/img/3059457.png';
 import Bolt from '../../assets/img/blue-bolt.png';
+import Cal from '../../assets/img/calls.png'
 
 
 const Header = () =>{
-     
+    useEffect(() =>{
+        Aos.init({});
+    }, []);
+
     return(
        <>  
        <div className='header-input'>
@@ -48,7 +54,7 @@ const Header = () =>{
                             </ul>
                         </li>
                     <li className="nav-items">
-                            <a href="#" className="nav-link"><img src={Call} alt="" className="navbar-picture" />+998997783606</a>
+                            <a href="#" className="nav-link"><img src={Cal} alt="" className="header-picture" />+998997783606</a>
                     </li>
                     </ul>
                 </div>
@@ -56,7 +62,9 @@ const Header = () =>{
             </nav>
             <section className="my-5 pb-5 header module-cover parallax  fullscreen">
                 <div className="container">
-                    <div className="header_page row py-5">
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="3000" className="header_page row py-5">
                         <div className="col-md-12">
                             <h1 className="header-name m-b-20"><strong>Pre-owned Electric Vehicles. <br /> Buy Online. Get it Delivered.</strong></h1>
                             <p className="header-text m-b-40">We offer financing, accept all trades, and deliver anywhere in the Continental US.</p>

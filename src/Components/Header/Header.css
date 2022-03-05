@@ -13,6 +13,10 @@
     height: 58px;
     margin-top: 15px;
 }
+.header-picture{
+    width: 30px;
+    height: 30px;
+}
 .header-name{
     color: #fff;
     line-height: 60px;
